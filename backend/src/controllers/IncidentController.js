@@ -22,7 +22,7 @@ module.exports = {
     
     response.header('X-Total-Count', count['count(*)']) //numero de registros como resposta no header
       
-    return response.json(incidents)
+    return response.json(incidents) // teeeeste
   },
 
   async create(request, response) {
